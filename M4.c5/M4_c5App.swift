@@ -11,7 +11,8 @@ import SwiftUI
 struct M4_c5App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PeopleTabView()
+                .environmentObject(PeopleModel())
         }
     }
 }
